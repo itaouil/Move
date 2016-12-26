@@ -1,0 +1,125 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Hero Background */
+.hero-background {
+	height: 600px;
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.main {
+	text-align: center;
+	font-family: sans-serif;
+	position: relative;
+	top: 180px;
+}
+
+.main h1 {
+	text-transform: uppercase;
+	font-size: 160px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.main p {
+	color: #fff;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.main a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #000;
+	padding: 10px 20px;
+}
+
+/* Content */
+.content {
+	height: 300px;
+	background-color: #333;
+}
+
+.col {
+	width: 33%;
+	float: left;
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+
+.col h3 {
+	color: coral;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.col p {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+/* NFL player */
+.nfl-player {
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg") no-repeat center;
+	background-size: cover;
+	height: 700px;
+}
+
+.kickphrase {
+	font-family: sans-serif;
+	font-size: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 300px;
+}
+
+/* Go Premium */
+.premium {
+	height: 200px;
+	background-color: #333;
+	text-align: center;
+}
+
+.premium a {
+	color: #fff;
+	padding: 10px 20px;
+	background-color: #000;
+	position: relative;
+	top: 90px;
+}
+
+/* End page */
+.jump {
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg") no-repeat center;
+	background-size: cover;
+	height: 500px;
+}
+
+.kickphrase-part-two {
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 300px;
+}
